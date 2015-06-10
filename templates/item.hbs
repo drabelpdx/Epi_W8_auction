@@ -1,0 +1,10 @@
+<h2>item: {{name}}</h2>
+<h2>description: {{description}}</h2>
+<h2>owner: {{owner}}</h2>
+<h2>bidNumber: {{bidNumber}}</h2>
+<h2>startPrice: {{startPrice}}</h2>
+<h2>backstory: {{backstory}}</h2>
+<h2>image: <img {{bind-attr src=this.image }}></h2>
+<h2>year aquired: {{yearAquired}}</h2>
+
+<button class="btn btn-danger" {{action 'delete'}}>Delete this Item from Auction</button>
